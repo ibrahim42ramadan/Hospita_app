@@ -1,0 +1,42 @@
+.rol {
+  position: relative;
+}
+.rol::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  width: 55%;
+  height: 20%;
+  background-color: rgba(58, 217, 122, 0.5);
+  z-index: 10;
+  transition: opacity 0.3s ease;
+}
+.type {
+  position: relative;
+}
+.type::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  width: 55%;
+  height: 20%;
+  background-color: rgba(156, 217, 58, 0.5);
+  z-index: 10;
+  transition: opacity 0.3s ease;
+}
+.Specialization {
+  position: relative;
+}
+.Specialization::after {
+  content: "";
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  width: 60%;
+  height: 20%;
+  background-color: rgba(231, 212, 6, 0.5);
+  z-index: 10;
+  transition: opacity 0.3s ease;
+}
